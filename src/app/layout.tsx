@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { GeistMono } from "geist/font/mono"
 import { GeistSans } from "geist/font/sans"
 import "../style/globals.css"
+import { Analytics } from "@vercel/analytics/react"
 import { ThemeProvider } from "../provider/theme-provider"
 import { Layout } from "../types/types"
 
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: Layout) {
           disableTransitionOnChange
         >
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
