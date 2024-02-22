@@ -28,8 +28,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Layout) {
   return (
-    <html lang="en">
-      <body className={`${GeistSans.variable} ${GeistMono.variable}`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={(GeistMono.className, GeistSans.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
