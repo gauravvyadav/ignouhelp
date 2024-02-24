@@ -39,7 +39,7 @@ export default function Search() {
       <Button
         variant="outline"
         className={cn(
-          "relative h-8 w-8 justify-center rounded-[0.5rem] border-0 bg-background p-0 text-sm font-normal text-muted-foreground shadow-none sm:justify-start sm:border sm:p-3 sm:pr-12 md:w-40 lg:w-64"
+          "relative h-8 w-8 justify-center rounded-[0.5rem] border-0 bg-background p-0 text-sm font-normal text-muted-foreground shadow-none sm:w-40 sm:justify-start sm:border sm:p-3 sm:pr-12 lg:w-64"
         )}
         onClick={() => setOpen(true)}
       >

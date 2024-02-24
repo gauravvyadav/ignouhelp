@@ -1,6 +1,5 @@
 // all menu items
-import React from "react"
-import { GitHubLogoIcon } from "@radix-ui/react-icons"
+import { FaBookReader, FaUniversity } from "react-icons/fa"
 
 export const menu: {
   heading: string
@@ -12,54 +11,30 @@ export const menu: {
   }[]
 }[] = [
   {
-    heading: "Getting Started",
+    heading: "Regional Network",
     items: [
       {
-        icon: <GitHubLogoIcon />,
-        title: "Installation",
-        description: "Learn how to install and use the framework",
-        href: "/docs/getting-started/installation",
+        icon: <FaUniversity />,
+        title: "Regional Centers",
+        description: "Regional centers of ignou with address",
+        href: "/regional-centers",
       },
       {
-        title: "Usage",
-        description: "Learn how to use the framework",
-        href: "/docs/getting-started/usage",
-      },
-      {
-        title: "Examples",
-        description: "Examples of using the framework",
-        href: "/docs/getting-started/examples",
-      },
-      {
-        title: "Examples",
-        description: "Examples of using the framework",
-        href: "/docs/getting-started/examples",
+        icon: <FaBookReader />,
+        title: "Study Centers",
+        description: "Study centers of ignou with address",
+        href: "/study-centers",
       },
     ],
   },
+]
+
+export const topHeaderMenu: {
+  title: string
+  href: string
+}[] = [
   {
-    heading: "Components",
-    items: [
-      {
-        title: "Button",
-        description: "The Button component",
-        href: "/docs/components/button",
-      },
-      {
-        title: "Input",
-        description: "The Input component",
-        href: "/docs/components/input",
-      },
-      {
-        title: "Select",
-        description: "The Select component",
-        href: "/docs/components/select",
-      },
-      {
-        title: "Textarea",
-        description: "The Textarea component",
-        href: "/docs/components/textarea",
-      },
-    ],
+    title: "Home",
+    href: "/",
   },
 ]

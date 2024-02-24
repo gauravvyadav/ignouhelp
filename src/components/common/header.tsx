@@ -3,10 +3,12 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons"
 import { siteConfig } from "@/src/config/site"
 import { cn } from "@/src/lib/utils"
 import { Button, buttonVariants } from "@/src/components/ui/button"
-import Logo from "@/src/components/common/logo"
 import Search from "@/src/components/search/search"
 import { HeaderMenu } from "./header-menu"
+import Logo from "./logo"
+import { MobileNav } from "./mobile-nav"
 import ThemeSwitch from "./theme-switch"
+import TopHeaderNav from "./top-header-nav"
 
 export default function Header() {
   return (
@@ -15,7 +17,9 @@ export default function Header() {
         {/* top header */}
         <div className="flex h-[52px] w-full flex-row items-center justify-between pt-1">
           <div className="flex h-full w-auto items-center">
-            <Logo className="fill-primary" />
+            <MobileNav />
+            <Logo className="ml-2 fill-primary md:ml-0" />
+            <TopHeaderNav />
           </div>
           <div className="flex h-full w-auto items-center gap-2">
             <Button variant={"secondary"} className="hidden h-8">
@@ -43,7 +47,7 @@ export default function Header() {
           </div>
         </div>
         {/* bottom header  */}
-        <div className="mt-auto h-auto">
+        <div className="mt-auto h-auto w-full">
           <HeaderMenu />
         </div>
       </div>

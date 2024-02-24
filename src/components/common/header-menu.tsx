@@ -16,29 +16,31 @@ import {
 export function HeaderMenu() {
   return (
     <NavigationMenu>
-      <NavigationMenuList className="gap-3">
-        {menu.map((section) => (
-          <NavigationMenuItem key={section.heading}>
-            <NavigationMenuTrigger className="px-0">
-              {section.heading}
-            </NavigationMenuTrigger>
-            <NavigationMenuContent className="shadow-2xl">
-              <ul className="grid w-[320px] gap-3 p-2 md:w-[360px] md:grid-cols-2 lg:w-[400px] ">
-                {section.items.map((item) => (
-                  <ListItem
-                    key={item.title}
-                    title={item.title}
-                    href={item.href}
-                    icon={item.icon}
-                  >
-                    {item.description}
-                  </ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-        ))}
-      </NavigationMenuList>
+      <div className="h-full w-full overflow-x-auto sm:overflow-visible">
+        <NavigationMenuList className="gap-3">
+          {menu.map((section) => (
+            <NavigationMenuItem key={section.heading}>
+              <NavigationMenuTrigger className="px-0">
+                {section.heading}
+              </NavigationMenuTrigger>
+              <NavigationMenuContent className="overflow-visible shadow-2xl">
+                <ul className="grid w-[320px] gap-3 p-2 md:w-[360px] md:grid-cols-2 lg:w-[400px] ">
+                  {section.items.map((item) => (
+                    <ListItem
+                      key={item.title}
+                      title={item.title}
+                      href={item.href}
+                      icon={item.icon}
+                    >
+                      {item.description}
+                    </ListItem>
+                  ))}
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+          ))}
+        </NavigationMenuList>
+      </div>
     </NavigationMenu>
   )
 }

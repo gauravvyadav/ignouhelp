@@ -3,11 +3,11 @@ import { cn } from "@/src/lib/utils"
 
 export default function Logo({ className }: { className?: string }) {
   return (
-    <Link href="/">
+    <Link href="/" className="m-auto">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        className={cn("h-6 w-auto sm:h-8", className)}
+        className={cn("h-6 w-auto", className)}
         viewBox="0 0 2000 404"
       >
         <svg
