@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { centerDetails } from "@/src/data/regional-network"
+import { Separator } from "@/src/components/ui/separator"
 import {
   Tooltip,
   TooltipContent,
@@ -13,17 +14,17 @@ export default function RegionalCenterDetails({
   params: { id: string }
 }) {
   return (
-    <div className="mt-8 w-full max-w-[600px] ">
+    <div className="mb-10 mt-8 w-full max-w-[600px]">
       <TooltipProvider>
-        {" "}
-        <h2 className="text-3xl font-semibold capitalize">
+        <h2 className="mb-4 text-center text-3xl font-semibold capitalize sm:text-start">
           {centerDetails[params.id].rc_name}
         </h2>
-        <table className="mt-4 capitalize">
+        <Separator />
+        <table className="mt-6 text-sm capitalize sm:text-base">
           <tbody>
             <tr>
-              <td className="pr-4 align-baseline font-semibold">
-                <div className="text-nowrap pr-4">RC Code:</div>
+              <td className="pr-1 align-baseline font-semibold">
+                <div className="text-nowrap pr-1">RC Code:</div>
               </td>
               <td className="flex flex-wrap pb-4">
                 <div className="rounded-md bg-secondary p-1 px-2">
@@ -32,8 +33,8 @@ export default function RegionalCenterDetails({
               </td>
             </tr>
             <tr>
-              <td className="pr-4 align-baseline font-semibold">
-                <div className="pr-4">Address:</div>
+              <td className="pr-1 align-baseline font-semibold">
+                <div className="pr-1">Address:</div>
               </td>
               <td className="pb-4">
                 <div className="rounded-md bg-secondary p-1 px-2">
@@ -42,8 +43,8 @@ export default function RegionalCenterDetails({
               </td>
             </tr>
             <tr>
-              <td className="pr-4 align-baseline font-semibold">
-                <div className="pr-4">Email:</div>
+              <td className="pr-1 align-baseline font-semibold">
+                <div className="pr-1">Email:</div>
               </td>
               <td className="flex flex-wrap gap-2 pb-4 lowercase">
                 {centerDetails[params.id].email.split(",").map((email) => (
@@ -54,8 +55,8 @@ export default function RegionalCenterDetails({
               </td>
             </tr>
             <tr>
-              <td className="pr-4 align-baseline font-semibold">
-                <div className="pr-4">Phone:</div>
+              <td className="pr-1 align-baseline font-semibold">
+                <div className="pr-1">Phone:</div>
               </td>
               <td className="flex flex-wrap gap-2 pb-4">
                 {centerDetails[params.id].phone.map((no) => (
@@ -66,8 +67,8 @@ export default function RegionalCenterDetails({
               </td>
             </tr>
             <tr>
-              <td className="pr-4 align-baseline font-semibold">
-                <div className="pr-4">State:</div>
+              <td className="pr-1 align-baseline font-semibold">
+                <div className="pr-1">State:</div>
               </td>
               <td className="flex flex-wrap gap-2 pb-4">
                 {centerDetails[params.id].state.split(",").map((s) => (
@@ -81,8 +82,8 @@ export default function RegionalCenterDetails({
               </td>
             </tr>
             <tr>
-              <td className="pr-4 align-baseline font-semibold">
-                <div className="pr-4">
+              <td className="pr-1 align-baseline font-semibold">
+                <div className="pr-1">
                   Districts:
                   <br /> (Operational Area):
                 </div>
@@ -99,8 +100,8 @@ export default function RegionalCenterDetails({
               </td>
             </tr>
             <tr>
-              <td className="pr-4 align-baseline font-semibold">
-                <div className="text-nowrap pr-4">Website:</div>
+              <td className="pr-1 align-baseline font-semibold">
+                <div className="text-nowrap pr-1">Website:</div>
               </td>
               <td className="flex flex-wrap pb-4">
                 <Tooltip>

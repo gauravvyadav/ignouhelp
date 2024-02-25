@@ -1753,3 +1753,285 @@ export const centerDetails: {
     website: "http://rcangul.ignou.ac.in/",
   },
 }
+
+// study centers
+
+export const studyCenters: {
+  [key: string]: {
+    rc_name: string
+    lsc_link: string
+  }
+} = {
+  agartala: {
+    rc_name: "Agartala",
+    lsc_link: "http://rcagartala.ignou.ac.in/studycentre/centre",
+  },
+  ahmedabad: {
+    rc_name: "Ahmedabad",
+    lsc_link:
+      "http://rcahmedabad.ignou.ac.in/Ignou-RC-Ahmedabad/userfiles/file/4%20Study%20centres%20List(1).pdf",
+  },
+  aizawl: {
+    rc_name: "Aizawl",
+    lsc_link:
+      "http://rcaizawl.ignou.ac.in/Ignou-RC-Aizawl/userfiles/file/List%20of%20LSCs.pdf",
+  },
+  aligarh: {
+    rc_name: "Aligarh",
+    lsc_link:
+      "http://rcaligarh.ignou.ac.in//Ignou-RC-Aligarh/userfiles/file/List%20of%20LSCs_New_2019.pdf",
+  },
+  bangalore: {
+    rc_name: "Bangalore",
+    lsc_link: "http://www.ignourcblr.in/doc/Programmes%20on%20offer.pdf",
+  },
+  bhagalpur: {
+    rc_name: "Bhagalpur",
+    lsc_link:
+      "http://rcbhagalpur.ignou.ac.in/Ignou-RC-Bhagalpur/userfiles/file/21_06_2019.pdf",
+  },
+  bhubneswar: {
+    rc_name: "Bhubneswar",
+    lsc_link:
+      "http://rcbhubaneshwar.ignou.ac.in/Ignou-RC-Bhubaneshwar/userfiles/file/LSC%20list%20as%20on%2020_08_2019.pdf",
+  },
+  bijapur: {
+    rc_name: "Bijapur",
+    lsc_link:
+      "http://rcbijapur.ignou.ac.in/Ignou-RC-Bijapur/userfiles/file/Web%20List%2020182.pdf",
+  },
+  bhopal: {
+    rc_name: "Bhopal",
+    lsc_link:
+      "http://www.ignou.ac.in/userfiles/061219-Active%20LSC%20List%20-%20RC%20Bhopal.pdf",
+  },
+  chandigarh: {
+    rc_name: "Chandigarh",
+    lsc_link:
+      "http://rcchandigarh.ignou.ac.in/Ignou-RC-Chandigarh/userfiles/file/Active%20LSC%20Status%20-%20Sept_,%202018.pdf",
+  },
+  chennai: {
+    rc_name: "Chennai",
+    lsc_link:
+      "http://rcchennai.ignou.ac.in/Ignou-RC-Chennai/userfiles/file/LSC_RC_CHENNAI(1).pdf",
+  },
+  cochin: {
+    rc_name: "Cochin",
+    lsc_link: "http://rccochin.ignou.ac.in/userfiles/file/LSC%20Details.pdf",
+  },
+  darbhanga: {
+    rc_name: "Darbhanga",
+    lsc_link:
+      "http://rcdarbhanga.ignou.ac.in/Ignou-RC-Darbhanga/userfiles/file/Updated%20Active%20%20LSCs.pdf",
+  },
+  dehradun: {
+    rc_name: "Dehradun",
+    lsc_link:
+      "http://rcdehradun.ignou.ac.in/Ignou-RC-Dehradun/userfiles/file/RC%20Dehradun%20Annx%201.pdf",
+  },
+  "delhi-1": {
+    rc_name: "Delhi 1",
+    lsc_link: "http://rcdelhi1.ignou.ac.in/Ignou-RC/userfiles/file/LSC.pdf",
+  },
+  "delhi-2": {
+    rc_name: "Delhi 2",
+    lsc_link: "http://www.ignourcd2.ac.in/Annexure1.html",
+  },
+  "delhi-3": {
+    rc_name: "Delhi 3",
+    lsc_link:
+      "http://rcdelhi3.ignou.ac.in/Ignou-RC-Delhi-3/userfiles/file/Active%20LSC.pdf",
+  },
+  deoghar: {
+    rc_name: "Deoghar",
+    lsc_link:
+      "http://rcdeoghar.ignou.ac.in/Ignou-RC-Deoghar/userfiles/file/Detail%20of%20the%20LSC_%20RC%20Deoghar_21st%20March%202014.pdf",
+  },
+  gangtok: {
+    rc_name: "Gangtok",
+    lsc_link:
+      "http://rcgangtok.ignou.ac.in//Ignou-RC-Gangtok/userfiles/file/LSCs_RC_Gangtok_Prog-edited_26072019.pdf",
+  },
+  guwahati: {
+    rc_name: "Guwahati",
+    lsc_link:
+      "http://rcguwahati.ignou.ac.in/Ignou-RC-Guwahati/userfiles/file/SCL.pdf",
+  },
+  hyderabad: {
+    rc_name: "Hyderabad",
+    lsc_link:
+      "http://rchyderabad.ignou.ac.in/Ignou-RC-Hyderabad/userfiles/file/LSCs%20as%20on%2016_07_19.pdf",
+  },
+  imphal: {
+    rc_name: "Imphal",
+    lsc_link:
+      "http://rcimphal.ignou.ac.in/Ignou-RC-Imphal/userfiles/file/Lsc_imphal_Program_Activated.pdf",
+  },
+  itanagar: {
+    rc_name: "Itanagar",
+    lsc_link:
+      "http://rcitanagar.ignou.ac.in/Ignou-RC-Itanagar/userfiles/file/Annexure%201_Details%20of%20Active%20Learner%20Support%20Centres%20(LSCs)1.pdf",
+  },
+  jabalpur: {
+    rc_name: "Jabalpur",
+    lsc_link:
+      "http://rcjabalpur.ignou.ac.in/Ignou-RC-Jabalpur/userfiles/file/36%20Centre%20pdf%20New%20List.pdf",
+  },
+  jammu: {
+    rc_name: "Jammu",
+    lsc_link:
+      "http://rcjammu.ignou.ac.in/Ignou-RC-Jammu/userfiles/file/LSCs_Updated.pdf",
+  },
+  jaipur: {
+    rc_name: "Jaipur",
+    lsc_link:
+      "http://rcjaipur.ignou.ac.in//Ignou-RC-Jaipur/userfiles/file/Details%20of%20Active%20Learner%20Support%20Centres%20(LSCs)%20as%20on%2007_08_19.pdf",
+  },
+  jodhpur: {
+    rc_name: "Jodhpur",
+    lsc_link: "http://rcjodhpur.ignou.ac.in/studycentre/centre",
+  },
+  jorhat: {
+    rc_name: "Jorhat",
+    lsc_link:
+      "http://rcjorhat.ignou.ac.in/Ignou-RC-Jorhat/userfiles/file/Updated%20LSC%20list%20Under%20RC%20Jorhat%20dt_05_08_19.pdf",
+  },
+  karnal: {
+    rc_name: "Karnal",
+    lsc_link:
+      "http://rckarnal.ignou.ac.in/Ignou-RC-Karnal/userfiles/file/List%20of%20LSCs%20under%20RC%20Karnal%20as%20on%20%201-August%202019(2)(1).pdf",
+  },
+  khanna: {
+    rc_name: "Khanna",
+    lsc_link:
+      "http://rckhanna.ignou.ac.in/Ignou-RC-Khanna/userfiles/file/Study%20Centres%20under%20RC%20Khanna.pdf",
+  },
+  kolkata: {
+    rc_name: "Kolkata",
+    lsc_link:
+      "http://rckolkatta.ignou.ac.in/Ignou-RC-Kolkata/userfiles/file/Learner%20Suport%20Centrs%20under%20RC%20Kolkata(2).pdf",
+  },
+  kohima: {
+    rc_name: "Kohima",
+    lsc_link:
+      "http://rckohima.ignou.ac.in/Ignou-RC-Kohima/userfiles/file/RC_Kohima_lsclist.pdf",
+  },
+  koraput: {
+    rc_name: "Koraput",
+    lsc_link:
+      "http://rckoraput.ignou.ac.in/Ignou-RC-Koraput/userfiles/file/LSC%20LIST%20OF%20RC%20KORAPUT%7B44%7D(1).pdf",
+  },
+  lucknow: {
+    rc_name: "Lucknow",
+    lsc_link:
+      "http://rclucknow.ignou.ac.in/Ignou-RC-Lucknow/userfiles/file/RC_LUCKNOW%20-%20LIST%20OF%20LSCs%20AS%20ON%2019_06_2018.pdf",
+  },
+  madurai: {
+    rc_name: "Madurai",
+    lsc_link:
+      "http://rcmadurai.ignou.ac.in/Ignou-RC-Madurai/userfiles/file/RC43ListofActiveLSCs2019ason14_08_2019_Revised.pdf",
+  },
+  mumbai: {
+    rc_name: "Mumbai",
+    lsc_link:
+      "http://rcmumbai.ignou.ac.in/Ignou-RC-Mumbai/userfiles/file/Annexure%201_Details%20of%20Active%20LSC(1).pdf",
+  },
+  nagpur: {
+    rc_name: "Nagpur",
+    lsc_link:
+      "http://rcnagpur.ignou.ac.in/Ignou-RC-Nagpur/userfiles/file/Annexure%201%20Details%20of%20Learner%20Support%20Centres%20as%20on%2001072019(5).pdf",
+  },
+  noida: {
+    rc_name: "NOIDA",
+    lsc_link:
+      "http://rcnoida.ignou.ac.in/Ignou-RC-Noida/userfiles/file/LSC%20list%20RC%20NOIDA%2023_08_2019.pdf",
+  },
+  panaji: {
+    rc_name: "Panaji",
+    lsc_link: "http://rcpanaji.ignou.ac.in/studycentre/centre",
+  },
+  patna: {
+    rc_name: "Patna",
+    lsc_link:
+      "http://rcpatna.ignou.ac.in/Ignou-RC-Patna/userfiles/file/list_of_study_centres.pdf",
+  },
+  portblair: {
+    rc_name: "Port Blair",
+    lsc_link:
+      "http://rcportblair.ignou.ac.in/Ignou-RC-PortBlair/userfiles/file/RC%20PORT%20BLAIR%20UPDATED%20LSC%20LIST.pdf",
+  },
+  pune: {
+    rc_name: "Pune",
+    lsc_link:
+      "http://rcpune.ignou.ac.in/Ignou-RC-Pune/userfiles/file/UPDATED%20ALL%20LSC'S%20DISTRICTWISE%20UPATED%20LIST.pdf",
+  },
+  raipur: {
+    rc_name: "Raipur",
+    lsc_link:
+      "http://rcraipur.ignou.ac.in/Ignou-RC-Raipur/userfiles/file/Annexure%201_Details%20of%20Active%20Learner%20Support%20Centres%20(LSCs)%20.pdf",
+  },
+  rajkot: {
+    rc_name: "Rajkot",
+    lsc_link:
+      "http://rcrajkot.ignou.ac.in/Ignou-RC-Rajkot/userfiles/file/Annexure%201_(LSCs)(1).pdf",
+  },
+  raghunathganj: {
+    rc_name: "Raghunathganj",
+    lsc_link:
+      "http://rcraghunathgunj.ignou.ac.in/Ignou-RC-Raghunathgang/userfiles/file/LSC_LIst_RC50%2031_5_16.PDF",
+  },
+  ranchi: {
+    rc_name: "Ranchi",
+    lsc_link:
+      "http://rcranchi.ignou.ac.in/Ignou-RC-Ranchi/userfiles/file/UPDATED%20STUDY%20CENTRE%20LIST.pdf",
+  },
+  saharsa: {
+    rc_name: "Saharsa",
+    lsc_link:
+      "http://rcsaharsa.ignou.ac.in//Ignou-RC-Saharsa/userfiles/file/List%20of%20Learner%20Support%20Centers.pdf",
+  },
+  shimla: {
+    rc_name: "Shimla",
+    lsc_link:
+      "http://rcshimla.ignou.ac.in/Ignou-RC-Shimla/userfiles/file/SC-wise%20activated%20programme(1).pdf",
+  },
+  shillong: {
+    rc_name: "Shillong",
+    lsc_link: "http://ignoushillong.nic.in/Support_Centres.html",
+  },
+  siliguri: {
+    rc_name: "Siliguri",
+    lsc_link:
+      "http://rcsiliguri.ignou.ac.in/Ignou-RC-Siliguri/userfiles/file/LSCs%20Details-as%20on%2030_04_18.pdf",
+  },
+  srinagar: {
+    rc_name: "Srinagar",
+    lsc_link:
+      "http://rcsrinagar.ignou.ac.in/Ignou-RC-Srinagar/userfiles/file/LSC_Details_of_RC_Srinagar.pdf",
+  },
+  thiruvanthapuram: {
+    rc_name: "Thiruvanthapuram",
+    lsc_link:
+      "http://rctrivandrum.ignou.ac.in/Ignou-RC-Trivandrum/userfiles/file/LSC%20LIST%20AS%20ON%2030-4-2018.pdf",
+  },
+  vatakara: {
+    rc_name: "Vatakara",
+    lsc_link:
+      "http://rcvatakara.ignou.ac.in/Ignou-RC-Vatakara/userfiles/file/Anx%20VII%20A%20-%20Study%20Centre%20Details.pdf",
+  },
+  varanasi: {
+    rc_name: "Varanasi",
+    lsc_link:
+      "http://rcvaranasi.ignou.ac.in/Ignou-RC-Varanasi/userfiles/file/LSC%2002_08_2019.pdf",
+  },
+  vijayawada: {
+    rc_name: "Vijayawada",
+    lsc_link:
+      "http://rcvijayawada.ignou.ac.in/Ignou-RC-Vijayawada/userfiles/file/LSC.pdf",
+  },
+  vishakhapatnam: {
+    rc_name: "Vishakhapatnam",
+    lsc_link:
+      "http://rcvishakhapatnam.ignou.ac.in/Ignou-RC-Vishakhapatnam/userfiles/file/List%20of%20LSCs%20PDF%20file.pdf",
+  },
+}

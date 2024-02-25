@@ -20,7 +20,7 @@ export function HeaderMenu() {
         <NavigationMenuList className="gap-3">
           {menu.map((section) => (
             <NavigationMenuItem key={section.heading}>
-              <NavigationMenuTrigger className="px-0">
+              <NavigationMenuTrigger className="bg-transparent px-0">
                 {section.heading}
               </NavigationMenuTrigger>
               <NavigationMenuContent className="overflow-visible shadow-2xl">
